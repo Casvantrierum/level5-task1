@@ -30,7 +30,7 @@ public class NoteRepository(context: Context) {
         noteDao.deleteNote(note)
     }
 
-    suspend fun updateNote(note: Note) {
-        noteDao.updateNote(note)
+    suspend fun updateNotepad(note: Note) {
+        noteDao.updateNotepad(note)
     }
 }
